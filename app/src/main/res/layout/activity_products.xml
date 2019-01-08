@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_products"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/gray_backgorund"
+    tools:context="com.deals.sine90.dealsinstreet.Products">
+   <!-- <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:padding="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/buttonPanel"
+        android:listSelector="@drawable/list_row_selector" />-->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/topPanel"
+        android:layout_above="@+id/buttonPanel"
+        layout="@layout/home_top"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonPanel"
+        android:layout_alignParentBottom="true"
+        layout="@layout/home_bottom" />
+</RelativeLayout>

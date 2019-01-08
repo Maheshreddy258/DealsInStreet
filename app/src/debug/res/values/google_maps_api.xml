@@ -1,0 +1,31 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=F8:8B:27:0C:72:25:90:77:2B:A5:FF:0D:1F:6B:26:23:F4:24:28:E4%3Bcom.deals.sine90.dealsinstreet
+
+    You can also add your credentials to an existing key, using this line:
+    F8:8B:27:0C:72:25:90:77:2B:A5:FF:0D:1F:6B:26:23:F4:24:28:E4;com.example.sine90.dealsinstreet
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+
+      <!--  AIzaSyCfGAJit7S0Cj8A-T4u01eZnqc4VY0cLkk-->
+      <!-- AIzaSyDvjJwl6RxZwxVQAIoCVle66frngfY6jno-->
+        AIzaSyCgSRdnEL92Kt_18r1G-qDfRsn1rsH3uzY
+    </string>
+</resources>
+
+   <!-- AIzaSyCHDgdBRASY_SZ9bmWOlr1hTNcfrTuaDsw-->
+   <!-- AIzaSyC6voqWWj0IN1axxZP2vIg8PfcUDTBNvhs-->
+    <!--   AIzaSyB4Bxu80qK7bmukQOixGsWuKWvOhnKHl5U-->
+    <!--AIzaSyA5IxSvB8FsdepmnjdFigSsPS_XRhrxACM-->
+<!--
+santosh mail-->

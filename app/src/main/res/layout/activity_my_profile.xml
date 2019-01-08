@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.deals.sine90.dealsinstreet.MyProfile">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:id="@+id/edit_profile"
+            android:textColor="#1e90ff"
+            android:layout_gravity="right"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:id="@+id/profile_image"
+            android:src="@drawable/profile3"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:focusableInTouchMode="true"
+            android:cursorVisible="false"
+            style="@style/InvisibleFocusHolder"
+            android:background="@drawable/bannermenu_background"
+            android:id="@+id/name"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:focusableInTouchMode="true"
+            android:cursorVisible="false"
+            style="@style/InvisibleFocusHolder"
+            android:background="@drawable/bannermenu_background"
+            android:id="@+id/email"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:focusableInTouchMode="true"
+            android:cursorVisible="false"
+            style="@style/InvisibleFocusHolder"
+            android:background="@drawable/bannermenu_background"
+            android:id="@+id/mobilenum"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:focusableInTouchMode="true"
+            android:cursorVisible="false"
+            style="@style/InvisibleFocusHolder"
+            android:background="@drawable/bannermenu_background"
+            android:id="@+id/city"/>
+    </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

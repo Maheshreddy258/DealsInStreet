@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.deals.sine90.dealsinstreet">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:name=".Listview_Helpers.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_new"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BannerDetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="Home" />
+        <activity
+            android:name=".WishList"
+            android:label="Wishlist" />
+        <activity
+            android:name=".Mystore"
+            android:label="Favourite Stores" />
+        <activity
+            android:name=".Expiring"
+            android:label="Expiring Offers" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".MyProfile"
+            android:label="@string/myprofile" />
+        <activity android:name=".Login" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".Search" />
+        <activity
+            android:name=".Location"
+            android:label="Pick your location" />
+        <activity android:name=".Products" />
+        <activity android:name=".Subcategories" />
+        <activity
+            android:name=".PrivacyPolicy"
+            android:label="Privacy Policy" />
+        <activity
+            android:name=".Terams_Condtions"
+            android:label="Terms &amp; Conditions" />
+        <activity android:name=".DirectionActivity" />
+        <activity
+            android:name=".Aboutud"
+            android:label="About Us" />
+        <activity
+            android:name=".StoreList"
+            android:label="Storeslist" />
+        <activity
+            android:name=".ExclusiveStoreList"
+            android:label="Exclusive Stores" />
+        <activity android:name=".Feedback" />
+        <activity
+            android:name=".Productdescription"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StoreDescription"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ForgotPassword"></activity>
+    </application>
+
+</manifest>
